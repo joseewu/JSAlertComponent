@@ -44,7 +44,8 @@ class AlertComponent: Component {
         NSLayoutConstraint(item: mainView, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 300).isActive = true
         
         NSLayoutConstraint(item: footer, attribute: .top, relatedBy: .equal, toItem: mainView, attribute: .bottom, multiplier: 1.0, constant: 0).isActive = true
-        NSLayoutConstraint(item: footer, attribute: .width, relatedBy: .equal, toItem: mainView, attribute: .width, multiplier: 1.0, constant: 0).isActive = true
+        NSLayoutConstraint(item: footer, attribute: .left, relatedBy: .equal, toItem: mainView, attribute: .left, multiplier: 1.0, constant: 0).isActive = true
+        NSLayoutConstraint(item: footer, attribute: .right, relatedBy: .equal, toItem: mainView, attribute: .right, multiplier: 1.0, constant: 0).isActive = true
         NSLayoutConstraint(item: footer, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 40).isActive = true
     }
     public final var view: View { return backgroundComponent.itemView }
