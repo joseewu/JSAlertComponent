@@ -1,0 +1,4 @@
+framework module URLNavigator {
+    header "URLNavigator-Swift.h"
+    requires objc
+}

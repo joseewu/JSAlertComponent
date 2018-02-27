@@ -1,0 +1,4 @@
+github "malcommac/Hydra" "1.2.1"
+github "devxoul/URLNavigator" "2.0.4"
+github "royhsu/tiny-core" "0.4.3"
+github "royhsu/tiny-kit" "0.6.0"

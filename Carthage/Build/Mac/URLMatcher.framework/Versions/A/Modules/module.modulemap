@@ -1,0 +1,4 @@
+framework module URLMatcher {
+    header "URLMatcher-Swift.h"
+    requires objc
+}

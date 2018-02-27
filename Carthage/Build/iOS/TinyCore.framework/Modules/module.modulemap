@@ -1,0 +1,11 @@
+framework module TinyCore {
+  umbrella header "TinyCore.h"
+
+  export *
+  module * { export * }
+}
+
+module TinyCore.Swift {
+    header "TinyCore-Swift.h"
+    requires objc
+}

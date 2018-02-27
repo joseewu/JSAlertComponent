@@ -1,0 +1,3 @@
+github "royhsu/tiny-core" == 0.4.3
+github "royhsu/tiny-kit" == 0.6.0
+github "malcommac/Hydra" == 1.2.1
